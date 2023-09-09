@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sign Up!</title>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    @using (Html.BeginForm("SendMail", "SignUp"))
+    {
+        <div class="signUp">
+            <h1 style="text-decoration: underline;">Sign Up Sheet</h1>
+            <br />
+            <div class="content">
+                <div class="labels">
+                    <label>Name:</label>
+                    <br />
+                    <br />
+                    <label>Surname:</label>
+                    <br />
+                    <br />
+                    <label>Email Address:</label>
+                </div>
+                <div class="textboxes">
+                    <input id="txtName" name="name" type="text" />
+                    <br />
+                    <br />
+                    <input id="txtSurname" name="surname" type="text" />
+                    <br />
+                    <br />
+                    <input id="txtEmail" name="email" type="text" />
+                </div>
+                <br />
+                <br />
+            </div>
+            <input id="btnSignUp" name="btnSignUp" type="submit" value="Sign Up!" />
+        </div>
+    }
+</body>
+</html>

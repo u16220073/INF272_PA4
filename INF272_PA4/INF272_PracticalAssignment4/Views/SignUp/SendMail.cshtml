@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Successful!</title>
+    <link href="~/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page2">
+        <h1>Congratulations! You have successfully signed up!</h1>
+        <h4>Please check your mail for your password confirmation.</h4>
+        <br />
+        <br />
+        @using (Html.BeginForm("Index", "SignUp"))
+        {
+            <input id="btnBack" type="submit" value="Go Back" />
+        }
+    </div>
+</body>
+</html>

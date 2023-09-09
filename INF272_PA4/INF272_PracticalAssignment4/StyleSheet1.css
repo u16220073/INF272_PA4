@@ -1,0 +1,35 @@
+﻿body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.textboxes {
+    display: inline-block;
+    text-align: left;
+}
+
+.signUp {
+    margin: auto;
+    padding-top: 3%;
+    text-align: center;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: lightblue;
+}
+
+.page2 {
+    margin: auto;
+    text-align: center;
+}
